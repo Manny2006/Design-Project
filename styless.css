@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+/*This makes the entire background slateblue*/
+body{
+    background-color:slateblue;
+}
+/*The imput type defines what the code is*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+ 
+  .submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    /*This makes the cursor a pointer when you hover over a button with this class*/
+    cursor:pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+/*This is the class to adjust the cancel button*/
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+ /*This is the class to adjust the cancel button and sing up button*/
+  .cancelbtn, .signupbtn{
+    float: left;
+    width: 50%;
+    margin-left: 0px;
+  }
+  /*This makes the sign up button green*/
+  #sign{
+    background-color: #04AA6D;
+  }
+
+  .container {
+    padding: 16px;
+  }
+  
+ 
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+/*This is the code to adjust the nav bar*/
+  button{
+  margin-left:100px;
+  height: 50px;
+  width: 100px;
+  background-color:mediumblue;
+  border-radius: 10px;
+  }
+
+.nav1{
+    text-decoration:none;
+    border-radius: 50%;
+   
+}
+footer {
+    position: fixed;     
+    text-align: left;    
+    bottom: 0px;
+    left:0px; 
+    width: 100%;
+    background-color:rgb(21, 21, 180);
+ }

@@ -1,0 +1,117 @@
+*{
+    /*This makes everything white unless something else overides it*/
+    color: white;
+ }
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: lightblue;
+  }
+   html {
+    box-sizing: border-box;
+  }
+   *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /*This adjusts the box wtih all my information*/
+   .column {   
+    position: absolute;
+    right: 490px;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background: white;
+  }
+   .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+   .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: slateblue;
+    color: white;
+  }
+   .container {
+    padding: 0 16px;
+  }
+  /*This is code for two classes*/
+   .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   .title {
+    color: grey;
+  }
+   .hi{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-left:0px;
+  }
+   .button:hover {
+    background-color: #555;
+  }
+   @media screen and (max-width: 650px) { .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.nfl{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*This is the code to adjust the nav bar*/
+button{
+  margin-left:70px;
+  height: 50px;
+  width: 100px;
+  background-color:mediumblue;
+  border-radius: 10px;
+}
+
+.nav1{
+  text-decoration:none;
+  color: white;
+  border-radius: 50%;
+}
+/*This makes all paragraphs and h2 black*/
+p{
+  color: black;
+}
+
+h2{
+  color:black;
+}
+/*.ball and .hello moves around and adjust the size of the images*/
+.ball{
+    position: absolute;
+    top: 360px;
+    left: 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.hello{
+    position: absolute;
+    top: 350px;
+    left:1000px;
+    width: 430px;
+    height: 430px;
+}
+
+footer {
+    position: fixed;     
+    text-align: left;    
+    bottom: 0px;
+    left:0px; 
+    width: 100%;
+    background-color:slateblue;
+ }

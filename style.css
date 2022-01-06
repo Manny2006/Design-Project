@@ -1,0 +1,183 @@
+*{
+    color:white;
+}
+header{
+    border: solid 1px;
+    /*Width 100% means that the header takes up the entire page*/
+    width:100%;
+    height: 130px;
+    background-color: slateblue;
+    position: fixed;
+    /*This z-index is the highest meaning it will always pop up over any other content*/
+    z-index: 10;
+}
+ 
+.nav {
+    border: 1px solid;
+    font-size: xx-large;
+    /*Padding 0 means that there is no space between the content and border*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 8px;
+    line-height: 110px;
+    position: absolute;
+    font-family:'merienda';
+}
+#navv{
+    right:25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#navvv{
+    text-align: left;
+    left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+ 
+.Football{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+ 
+body{
+    /*This makes the entire background of the page one color*/
+    background-color: lightblue;
+}
+ 
+.img{
+    /*Absolute makes it able to move around the content with code like top, right, left or bottom*/
+    position: absolute;
+    top:150px;
+    height: 414px;
+    width: 414px;
+    z-index: 9;
+}
+ 
+.welcome {
+    right: 10px;
+    top:150px;
+    border: 5px solid;
+    width: 500px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 9;
+}
+ 
+button {
+    margin-left: 450px;
+    height: 100px;
+    width: 30%;
+    background-color:mediumblue;
+    border-radius: 10px;
+    z-index: 9;   
+}
+
+.nav1{
+    text-decoration:none;
+    border-radius: 50%;
+}
+
+footer {
+    /* Position fixed makes the content always stay in one space*/
+   position: fixed;     
+   text-align: left;    
+   bottom: 0px;
+   left:0px; 
+   width: 100%;
+   background-color:slateblue;
+}
+
+nav{
+    z-index: 5;
+}
+
+table, th, td {
+    border: 1px solid;
+    
+  }
+  
+table{
+    position: absolute;
+    top:570px;
+    width: 28.5%;
+    text-align: center;
+    height: 145px;
+}
+
+#table2{
+position: absolute;
+right:1%;
+top: 570px;
+width:35%;
+height: 200px;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+.football{
+    position: absolute;
+    border: solid 1px;
+    top: 570px;
+    right: 543px;
+    width: 30%;
+    height: 310px;
+    text-align: center;
+    padding: 10px;
+}
+
+.goat{
+    border: 5px;
+    position: absolute;
+    top: 780px;
+    width: 28.5%;
+    height: 200px;
+}
+
+#great{
+    right: 1%;
+    width:35%;
+}
+
+.rank {
+    color: #FFF;
+    background: mediumblue;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* These are ids to make each box a specific color*/
+#cheif{
+    background: red;
+}
+
+#packer{
+    background: green;
+}
+
+#bengal{
+    background: orange;
+}
+
+#ram{
+    background: yellow;
+}
+
+.afc{
+    color: red;
+}
+
+.nfc{
+    color: blue;
+}
